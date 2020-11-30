@@ -2416,9 +2416,9 @@
     "restore": {
       "projectUniqueName": "원가계산 통합 자동화",
       "projectName": "원가계산 통합 자동화",
-      "projectPath": "C:\\JDH\\RPA\\원가계산 통합 자동화\\.local",
+      "projectPath": "C:\\JDH\\RPAGIT\\원가계산 통합 자동화\\.local",
       "packagesPath": "C:\\Users\\JDH\\.nuget\\packages\\",
-      "outputPath": "C:\\JDH\\RPA\\원가계산 통합 자동화\\.local"
+      "outputPath": "C:\\JDH\\RPAGIT\\원가계산 통합 자동화\\.local"
     },
     "frameworks": {
       "net461": {

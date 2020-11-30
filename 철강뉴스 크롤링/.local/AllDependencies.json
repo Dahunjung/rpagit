@@ -3492,9 +3492,9 @@
     "restore": {
       "projectUniqueName": "철강뉴스 크롤링",
       "projectName": "철강뉴스 크롤링",
-      "projectPath": "C:\\JDH\\RPA\\철강뉴스 크롤링\\.local",
+      "projectPath": "C:\\JDH\\RPAGIT\\철강뉴스 크롤링\\.local",
       "packagesPath": "C:\\Users\\JDH\\.nuget\\packages\\",
-      "outputPath": "C:\\JDH\\RPA\\철강뉴스 크롤링\\.local"
+      "outputPath": "C:\\JDH\\RPAGIT\\철강뉴스 크롤링\\.local"
     },
     "frameworks": {
       "net461": {

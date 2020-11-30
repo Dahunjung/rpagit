@@ -1630,39 +1630,33 @@
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <av:Point x:Key="ShapeLocation">200,911</av:Point>
-                                  <av:Size x:Key="ShapeSize">200,51</av:Size>
+                                  <av:Size x:Key="ShapeSize">200,66</av:Size>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:CommentOut sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-                                <ui:CommentOut.Body>
-                                  <Sequence DisplayName="무시된 액티비티" sap2010:WorkflowViewState.IdRef="Sequence_15">
-                                    <Sequence DisplayName="엑셀VBA" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_14">
-                                      <sap:WorkflowViewStateService.ViewState>
-                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                        </scg:Dictionary>
-                                      </sap:WorkflowViewStateService.ViewState>
-                                      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,260" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" Workbook="[path_file]" WorkbookPath="[&quot;C:\Users\thehu\Documents\UiPath\라인별생산성지표 자동화\backdata\&quot; + thisyear + &quot;\&quot; + thismonth + &quot;월&quot; + &quot;\&quot; + thisyear + &quot;년 &quot; + thismonth + &quot;월 &quot; + &quot;Line별 생산성 지표_자동화.xlsm&quot;]">
-                                        <ui:ExcelApplicationScope.Body>
-                                          <ActivityAction x:TypeArguments="ui:WorkbookApplication">
-                                            <ActivityAction.Argument>
-                                              <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
-                                            </ActivityAction.Argument>
-                                            <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376,151" sap2010:WorkflowViewState.IdRef="Sequence_13">
-                                              <sap:WorkflowViewStateService.ViewState>
-                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                </scg:Dictionary>
-                                              </sap:WorkflowViewStateService.ViewState>
-                                              <ui:ExecuteMacro ContinueOnError="{x:Null}" MacroOutput="{x:Null}" DisplayName="Execute Macro" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="ExecuteMacro_1" MacroName="생산성지표자동화" />
-                                            </Sequence>
-                                          </ActivityAction>
-                                        </ui:ExcelApplicationScope.Body>
-                                      </ui:ExcelApplicationScope>
-                                    </Sequence>
-                                  </Sequence>
-                                </ui:CommentOut.Body>
-                              </ui:CommentOut>
+                              <Sequence DisplayName="엑셀VBA" sap:VirtualizedContainerService.HintSize="476,352" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,260" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" Workbook="[path_file]" WorkbookPath="[&quot;C:\JDH\RPAGIT\라인별생산성지표 자동화\backdata\&quot; + thisyear + &quot;\&quot; + thismonth + &quot;월&quot; + &quot;\&quot; + thisyear + &quot;년 &quot; + thismonth + &quot;월 &quot; + &quot;Line별 생산성 지표_자동화.xlsm&quot;]">
+                                  <ui:ExcelApplicationScope.Body>
+                                    <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+                                      <ActivityAction.Argument>
+                                        <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+                                      </ActivityAction.Argument>
+                                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376,151" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ui:ExecuteMacro ContinueOnError="{x:Null}" MacroOutput="{x:Null}" DisplayName="Execute Macro" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="ExecuteMacro_1" MacroName="생산성지표자동화" />
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </ui:ExcelApplicationScope.Body>
+                                </ui:ExcelApplicationScope>
+                              </Sequence>
                             </FlowStep>
                           </FlowStep.Next>
                         </FlowStep>

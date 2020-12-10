@@ -1,6 +1,6 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1208,952" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="31">
+    <scg:List x:TypeArguments="x:String" Capacity="62">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -32,6 +32,7 @@
       <x:String>System.ComponentModel</x:String>
       <x:String>System.Runtime.Serialization</x:String>
       <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -121,7 +122,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="3434[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="375da456-e07e-47dc-8dcd-060e5f941cf6" InformativeScreenshot="09732ac2d8b3d73368a3a1f67d13e242" Selector="&lt;wnd app='세아 씨엠 통합정보시스템.exe' ctrlname='FrmMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="375da456-e07e-47dc-8dcd-060e5f941cf6" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -277,7 +278,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="3433[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a1ce04f8-cb24-47a8-a1e4-3dabb4d225da" InformativeScreenshot="bf8fbe2d6de9876e9a06977de8ddff67" Selector="&lt;wnd app='세아 씨엠 통합정보시스템.exe' ctrlname='FrmMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a1ce04f8-cb24-47a8-a1e4-3dabb4d225da" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -410,7 +411,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_5" Text="3437[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f1510889-613d-40de-96cd-f242087b0962" InformativeScreenshot="da2c3c07ad8ac8dd030ca47c3deedd8d" Selector="&lt;wnd app='세아 씨엠 통합정보시스템.exe' ctrlname='FrmMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f1510889-613d-40de-96cd-f242087b0962" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -520,7 +521,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_7" Text="3438[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="00c655ad-e977-4aac-8a9a-0dca417dc851" InformativeScreenshot="90c27a93c81c7e8547fa194d87a17388" Selector="&lt;wnd app='세아 씨엠 통합정보시스템.exe' ctrlname='FrmMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="00c655ad-e977-4aac-8a9a-0dca417dc851" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -671,7 +672,7 @@
                     </sap:WorkflowViewStateService.ViewState>
                     <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="412,134" sap2010:WorkflowViewState.IdRef="TypeInto_21" Text="3579[k(enter)]">
                       <ui:TypeInto.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bfb99625-a95e-4b26-a157-4de18ae54e41" InformativeScreenshot="bf8fbe2d6de9876e9a06977de8ddff67" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bfb99625-a95e-4b26-a157-4de18ae54e41" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
@@ -747,7 +748,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="15498e73-d3f1-4199-a79c-217a5c259371" InformativeScreenshot="9fdee5b62309d236a60a4a13cab858f0" Selector="&lt;wnd app='세아 씨엠 통합정보시스템.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='2' title='확인' /&gt;" TimeoutMS="300000" WaitForReady="NONE" />
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="15498e73-d3f1-4199-a79c-217a5c259371" InformativeScreenshot="9fdee5b62309d236a60a4a13cab858f0" Selector="&lt;wnd app='세아 씨엠 통합정보시스템.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='2' title='확인' /&gt;" TimeoutMS="600000" WaitForReady="NONE" />
                             </ui:Click.Target>
                           </ui:Click>
                           <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_6" Key="down" KeyModifiers="None" SpecialKey="True">
@@ -781,7 +782,7 @@
                         </Sequence>
                       </ui:InterruptibleWhile.Body>
                       <ui:InterruptibleWhile.Condition>
-                        <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="hang_num &lt; 41" />
+                        <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="hang_num &lt;41" />
                       </ui:InterruptibleWhile.Condition>
                     </ui:InterruptibleWhile>
                     <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.Window.b...'" sap:VirtualizedContainerService.HintSize="412,106" sap2010:WorkflowViewState.IdRef="Click_88" KeyModifiers="None" MouseButton="BTN_LEFT">
@@ -845,7 +846,7 @@
                         </sap:WorkflowViewStateService.ViewState>
                         <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_35" Text="3545[k(enter)]">
                           <ui:TypeInto.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4343d77c-947f-4239-8d7e-377b40c8d699" InformativeScreenshot="6968768589c46a8424fca2217499ae63" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4343d77c-947f-4239-8d7e-377b40c8d699" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -1221,7 +1222,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                             <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_23" Text="3447[k(enter)]">
                               <ui:TypeInto.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8c952d66-ab34-4d87-870e-84005ee50040" InformativeScreenshot="40f3b81a7c99bcca0251432ffed95e24" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8c952d66-ab34-4d87-870e-84005ee50040" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -1319,7 +1320,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                             <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_25" Text="3448[k(enter)]">
                               <ui:TypeInto.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6e25a7f-8a1d-4462-a2d5-5cf880bf83de" InformativeScreenshot="40f3b81a7c99bcca0251432ffed95e24" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6e25a7f-8a1d-4462-a2d5-5cf880bf83de" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -1462,7 +1463,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                             <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_27" Text="3449[k(enter)]">
                               <ui:TypeInto.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7f3824c1-0c83-4416-a11e-e1fface92d7c" InformativeScreenshot="40f3b81a7c99bcca0251432ffed95e24" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7f3824c1-0c83-4416-a11e-e1fface92d7c" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -1605,7 +1606,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                             <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_29" Text="3450[k(enter)]">
                               <ui:TypeInto.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2ce90b10-8d2e-4070-a745-6d2de15e07ea" InformativeScreenshot="40f3b81a7c99bcca0251432ffed95e24" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2ce90b10-8d2e-4070-a745-6d2de15e07ea" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -1703,7 +1704,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                             <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_31" Text="3451[k(enter)]">
                               <ui:TypeInto.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="22ef60aa-6387-4baa-9210-76ca4d20371a" InformativeScreenshot="40f3b81a7c99bcca0251432ffed95e24" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="22ef60aa-6387-4baa-9210-76ca4d20371a" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -2108,7 +2109,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_9" Text="3683[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3b35d089-5954-4834-bd19-0dfb88945905" InformativeScreenshot="3de30cd3661b1eebe394c8607a2f32a8" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3b35d089-5954-4834-bd19-0dfb88945905" InformativeScreenshot="c6d7bbaf01e89728f91086c12cb41bdf" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -2205,7 +2206,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_11" Text="3630[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a944d275-976f-40c2-9b8b-fe5f8a0d2720" InformativeScreenshot="6ae19d8288213ab1ccc8c220d761163d" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a944d275-976f-40c2-9b8b-fe5f8a0d2720" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -2302,7 +2303,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_13" Text="3631[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cab05750-6311-44e7-b8b8-f9e3e109540c" InformativeScreenshot="6ae19d8288213ab1ccc8c220d761163d" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cab05750-6311-44e7-b8b8-f9e3e109540c" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -2465,7 +2466,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_15" Text="3691[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="596fef39-cb9e-400a-b7bd-3e48460610ef" InformativeScreenshot="6ae19d8288213ab1ccc8c220d761163d" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="596fef39-cb9e-400a-b7bd-3e48460610ef" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -2562,7 +2563,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_17" Text="4057[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a3b551b0-ed40-4560-8448-b5631a08f44e" InformativeScreenshot="6ae19d8288213ab1ccc8c220d761163d" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a3b551b0-ed40-4560-8448-b5631a08f44e" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -2659,7 +2660,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_19" Text="3654[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5bcd6dff-420f-4cca-8042-62a7cc0cffe4" InformativeScreenshot="6ae19d8288213ab1ccc8c220d761163d" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5bcd6dff-420f-4cca-8042-62a7cc0cffe4" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -2734,7 +2735,7 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="484,134" sap2010:WorkflowViewState.IdRef="TypeInto_33" Text="3420[k(enter)]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="62165a12-710d-4b05-83a1-5776b6020f10" InformativeScreenshot="8cde4857281d071c9c3fe912265ec5f3" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='panelContainer1' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="62165a12-710d-4b05-83a1-5776b6020f10" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -3008,7 +3009,7 @@
           <av:PointCollection x:Key="ConnectorLocation">300,193.5 300,243.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="기본정보 입력" sap:VirtualizedContainerService.HintSize="611,732" sap2010:WorkflowViewState.IdRef="Sequence_23">
+      <Sequence DisplayName="기본정보 입력" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_23">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3059,7 +3060,7 @@
             <OutArgument x:TypeArguments="x:String">[pathsave]</OutArgument>
           </Assign.To>
           <Assign.Value>
-            <InArgument x:TypeArguments="x:String">["Z:\원가계산\2020\" + pathsave_month + "월"]</InArgument>
+            <InArgument x:TypeArguments="x:String">["C:\JDH\RPAGIT\원가계산 통합 자동화\backdata"]</InArgument>
           </Assign.Value>
         </Assign>
         <Assign sap:VirtualizedContainerService.HintSize="569,60" sap2010:WorkflowViewState.IdRef="Assign_8">

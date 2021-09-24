@@ -2094,13 +2094,13 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="현업수불 생성" sap:VirtualizedContainerService.HintSize="568,9338" sap2010:WorkflowViewState.IdRef="Sequence_12">
+            <Sequence DisplayName="현업수불 생성" sap:VirtualizedContainerService.HintSize="646,9624" sap2010:WorkflowViewState.IdRef="Sequence_12">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="부자재 수불 생성" sap:VirtualizedContainerService.HintSize="526,838" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <Sequence DisplayName="부자재 수불 생성" sap:VirtualizedContainerService.HintSize="604,838" sap2010:WorkflowViewState.IdRef="Sequence_6">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2197,7 +2197,7 @@
                   </ui:Click.Target>
                 </ui:Click>
               </Sequence>
-              <Sequence DisplayName="상품 수불 생성" sap:VirtualizedContainerService.HintSize="526,838" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <Sequence DisplayName="상품 수불 생성" sap:VirtualizedContainerService.HintSize="604,838" sap2010:WorkflowViewState.IdRef="Sequence_7">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2294,7 +2294,7 @@
                   </ui:Click.Target>
                 </ui:Click>
               </Sequence>
-              <Sequence DisplayName="원재료 수불 생성" sap:VirtualizedContainerService.HintSize="526,1276" sap2010:WorkflowViewState.IdRef="Sequence_8">
+              <Sequence DisplayName="원재료 수불 생성" sap:VirtualizedContainerService.HintSize="604,1276" sap2010:WorkflowViewState.IdRef="Sequence_8">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2457,7 +2457,7 @@
                   </ui:Click.Target>
                 </ui:Click>
               </Sequence>
-              <Sequence DisplayName="부산물 수불 생성" sap:VirtualizedContainerService.HintSize="526,838" sap2010:WorkflowViewState.IdRef="Sequence_9">
+              <Sequence DisplayName="부산물 수불 생성" sap:VirtualizedContainerService.HintSize="604,838" sap2010:WorkflowViewState.IdRef="Sequence_9">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2554,7 +2554,7 @@
                   </ui:Click.Target>
                 </ui:Click>
               </Sequence>
-              <Sequence DisplayName="저장품 수불 생성" sap:VirtualizedContainerService.HintSize="526,838" sap2010:WorkflowViewState.IdRef="Sequence_33">
+              <Sequence DisplayName="저장품 수불 생성" sap:VirtualizedContainerService.HintSize="604,838" sap2010:WorkflowViewState.IdRef="Sequence_33">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2651,7 +2651,7 @@
                   </ui:Click.Target>
                 </ui:Click>
               </Sequence>
-              <Sequence DisplayName="상각자재 수불 생성" sap:VirtualizedContainerService.HintSize="526,838" sap2010:WorkflowViewState.IdRef="Sequence_10">
+              <Sequence DisplayName="상각자재 수불 생성" sap:VirtualizedContainerService.HintSize="604,838" sap2010:WorkflowViewState.IdRef="Sequence_10">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2748,7 +2748,7 @@
                   </ui:Click.Target>
                 </ui:Click>
               </Sequence>
-              <Sequence DisplayName="제품 수불 생성" sap:VirtualizedContainerService.HintSize="526,692" sap2010:WorkflowViewState.IdRef="Sequence_11">
+              <Sequence DisplayName="제품 수불 생성" sap:VirtualizedContainerService.HintSize="604,692" sap2010:WorkflowViewState.IdRef="Sequence_11">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2823,264 +2823,275 @@
                   </ui:Click.Target>
                 </ui:Click>
               </Sequence>
-              <Sequence DisplayName="원가 마감 유무" sap:VirtualizedContainerService.HintSize="526,2808" sap2010:WorkflowViewState.IdRef="Sequence_22">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="484,134" sap2010:WorkflowViewState.IdRef="TypeInto_33" Text="3420[k(enter)]">
-                  <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="62165a12-710d-4b05-83a1-5776b6020f10" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
-                      <ui:Target.TimeoutMS>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:Target.TimeoutMS>
-                      <ui:Target.WaitForReady>
-                        <InArgument x:TypeArguments="ui:WaitForReady" />
-                      </ui:Target.WaitForReady>
-                    </ui:Target>
-                  </ui:TypeInto.Target>
-                </ui:TypeInto>
-                <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="484,134" sap2010:WorkflowViewState.IdRef="TypeInto_34" Text="[thismonth+ &quot;[k(enter)]&quot;]">
-                  <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c6778d81-95f9-4dca-b0ca-aae33551f816" InformativeScreenshot="c5e7e266acd468d32b86d8d1c90be649" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlParameterArea' /&gt;&lt;wnd ctrlname='YMEdit' /&gt;&lt;wnd ctrlname='edit' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
-                      <ui:Target.TimeoutMS>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:Target.TimeoutMS>
-                      <ui:Target.WaitForReady>
-                        <InArgument x:TypeArguments="ui:WaitForReady" />
-                      </ui:Target.WaitForReady>
-                    </ui:Target>
-                  </ui:TypeInto.Target>
-                </ui:TypeInto>
-                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="484,116" sap2010:WorkflowViewState.IdRef="SendHotkey_7" Key="f5" KeyModifiers="None" SpecialKey="True">
-                  <ui:SendHotkey.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="66fceecd-eb28-41b1-93e1-262ac69a582f">
-                      <ui:Target.TimeoutMS>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:Target.TimeoutMS>
-                      <ui:Target.WaitForReady>
-                        <InArgument x:TypeArguments="ui:WaitForReady" />
-                      </ui:Target.WaitForReady>
-                    </ui:Target>
-                  </ui:SendHotkey.Target>
-                </ui:SendHotkey>
-                <Sequence sap:VirtualizedContainerService.HintSize="484,748" sap2010:WorkflowViewState.IdRef="Sequence_29">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="text" DisplayName="Get Attribute 'cell  구매 row 0'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="GetAttribute_1">
-                    <ui:GetAttribute.Result>
-                      <OutArgument x:TypeArguments="x:String">[b_check]</OutArgument>
-                    </ui:GetAttribute.Result>
-                    <ui:GetAttribute.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="fc781bfb-cd2e-4383-a9ce-0c4c024a3620" InformativeScreenshot="3df5922c0c9e5072dd31f3719aff23cd" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='구매 row 0' role='cell' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:GetAttribute.Target>
-                  </ui:GetAttribute>
-                  <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="text" DisplayName="Get Attribute 'cell  부자재 row 0'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="GetAttribute_2">
-                    <ui:GetAttribute.Result>
-                      <OutArgument x:TypeArguments="x:String">[r_check]</OutArgument>
-                    </ui:GetAttribute.Result>
-                    <ui:GetAttribute.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ad5b362c-8fbf-4ded-93b1-c7c7230da2e8" InformativeScreenshot="b4efbc504246478dc26b5cfaac1807e2" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='부자재 row 0' role='cell' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:GetAttribute.Target>
-                  </ui:GetAttribute>
-                  <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="text" DisplayName="Get Attribute 'cell  생산 row 0'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="GetAttribute_3">
-                    <ui:GetAttribute.Result>
-                      <OutArgument x:TypeArguments="x:String">[p_check]</OutArgument>
-                    </ui:GetAttribute.Result>
-                    <ui:GetAttribute.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="22c4d1c0-0446-4285-8454-9aa2d1b9f56d" InformativeScreenshot="eab348a0cf5a4cfe423f8f249f349f4d" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='생산 row 0' role='cell' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:GetAttribute.Target>
-                  </ui:GetAttribute>
-                  <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="text" DisplayName="Get Attribute 'cell  영업 row 0'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="GetAttribute_4">
-                    <ui:GetAttribute.Result>
-                      <OutArgument x:TypeArguments="x:String">[s_check]</OutArgument>
-                    </ui:GetAttribute.Result>
-                    <ui:GetAttribute.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d3a09223-3ee9-4d27-95fe-6f884e0584d1" InformativeScreenshot="ec95ce4b5a481d62d02b25427f268caa" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='영업 row 0' role='cell' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:GetAttribute.Target>
-                  </ui:GetAttribute>
-                </Sequence>
-                <If Condition="[b_check = &quot;해제&quot;]" sap:VirtualizedContainerService.HintSize="484,253" sap2010:WorkflowViewState.IdRef="If_4">
-                  <If.Then>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'cell  구매 row 0'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_80" KeyModifiers="None" MouseButton="BTN_LEFT">
-                      <ui:Click.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </ui:Click.CursorPosition>
-                      <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ce65962c-95dc-444e-94f2-756c5fb7b0c8" InformativeScreenshot="3df5922c0c9e5072dd31f3719aff23cd" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='구매 row 0' role='cell' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:Click.Target>
-                    </ui:Click>
-                  </If.Then>
-                </If>
-                <If Condition="[r_check = &quot;해제&quot;]" sap:VirtualizedContainerService.HintSize="484,253" sap2010:WorkflowViewState.IdRef="If_5">
-                  <If.Then>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'cell  부자재 row 0'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_84" KeyModifiers="None" MouseButton="BTN_LEFT">
-                      <ui:Click.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </ui:Click.CursorPosition>
-                      <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b30a2979-6574-4173-91ed-8a404012cca6" InformativeScreenshot="a518f763a0f9b19b88ab17d38c7dc29c" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='부자재 row 0' role='cell' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:Click.Target>
-                    </ui:Click>
-                  </If.Then>
-                </If>
-                <If Condition="[p_check = &quot;해제&quot;]" sap:VirtualizedContainerService.HintSize="484,253" sap2010:WorkflowViewState.IdRef="If_6">
-                  <If.Then>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'cell  생산 row 0'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_85" KeyModifiers="None" MouseButton="BTN_LEFT">
-                      <ui:Click.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </ui:Click.CursorPosition>
-                      <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3ef17423-5448-4164-b67f-95310543d71e" InformativeScreenshot="77766e1e5eec482db3877a18bf11c401" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='생산 row 0' role='cell' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:Click.Target>
-                    </ui:Click>
-                  </If.Then>
-                </If>
-                <If Condition="[s_check = &quot;해제&quot;]" sap:VirtualizedContainerService.HintSize="484,253" sap2010:WorkflowViewState.IdRef="If_7">
-                  <If.Then>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'cell  영업 row 0'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_86" KeyModifiers="None" MouseButton="BTN_LEFT">
-                      <ui:Click.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </ui:Click.CursorPosition>
-                      <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d2124510-feef-443d-b606-3e7733551995" InformativeScreenshot="f6836ae37717eacb7ce5b291d881f229" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='영업 row 0' role='cell' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:Click.Target>
-                    </ui:Click>
-                  </If.Then>
-                </If>
-                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.Window.b...'" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="Click_87" KeyModifiers="None" MouseButton="BTN_LEFT">
-                  <ui:Click.CursorPosition>
-                    <ui:CursorPosition Position="Center">
-                      <ui:CursorPosition.OffsetX>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:CursorPosition.OffsetX>
-                      <ui:CursorPosition.OffsetY>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:CursorPosition.OffsetY>
-                    </ui:CursorPosition>
-                  </ui:Click.CursorPosition>
-                  <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a9c9a5a6-3198-454e-a089-c913d992cf1b" InformativeScreenshot="782c875b62d673f5cdf4f0d169208d84" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='cmdToolBar' /&gt;&lt;wnd ctrlname='pnlContainer' /&gt;&lt;wnd ctrlname='sbtnSave' /&gt;">
-                      <ui:Target.TimeoutMS>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:Target.TimeoutMS>
-                      <ui:Target.WaitForReady>
-                        <InArgument x:TypeArguments="ui:WaitForReady" />
-                      </ui:Target.WaitForReady>
-                    </ui:Target>
-                  </ui:Click.Target>
-                </ui:Click>
-                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.Window.b...'" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="Click_70" KeyModifiers="None" MouseButton="BTN_LEFT">
-                  <ui:Click.CursorPosition>
-                    <ui:CursorPosition Position="Center">
-                      <ui:CursorPosition.OffsetX>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:CursorPosition.OffsetX>
-                      <ui:CursorPosition.OffsetY>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:CursorPosition.OffsetY>
-                    </ui:CursorPosition>
-                  </ui:Click.CursorPosition>
-                  <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3c33ba97-cf5e-408a-a75a-ad896d1cfdce" InformativeScreenshot="e38048e3eea94285ec87a063d28d8a4f" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='cmdToolBar' /&gt;&lt;wnd ctrlname='pnlContainer' /&gt;&lt;wnd ctrlname='sbtnClose' /&gt;">
-                      <ui:Target.TimeoutMS>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:Target.TimeoutMS>
-                      <ui:Target.WaitForReady>
-                        <InArgument x:TypeArguments="ui:WaitForReady" />
-                      </ui:Target.WaitForReady>
-                    </ui:Target>
-                  </ui:Click.Target>
-                </ui:Click>
-              </Sequence>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="604,3094" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="568,3016" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Sequence DisplayName="원가 마감 유무" sap:VirtualizedContainerService.HintSize="526,2924" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" sap:VirtualizedContainerService.HintSize="484,134" sap2010:WorkflowViewState.IdRef="TypeInto_33" Text="3420[k(enter)]">
+                        <ui:TypeInto.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="62165a12-710d-4b05-83a1-5776b6020f10" InformativeScreenshot="edf3c9869b5d3c0db10322ae26fb8809" Selector="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:TypeInto.Target>
+                      </ui:TypeInto>
+                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="484,134" sap2010:WorkflowViewState.IdRef="TypeInto_34" Text="[thismonth+ &quot;[k(enter)]&quot;]">
+                        <ui:TypeInto.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c6778d81-95f9-4dca-b0ca-aae33551f816" InformativeScreenshot="c5e7e266acd468d32b86d8d1c90be649" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlParameterArea' /&gt;&lt;wnd ctrlname='YMEdit' /&gt;&lt;wnd ctrlname='edit' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:TypeInto.Target>
+                      </ui:TypeInto>
+                      <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="484,116" sap2010:WorkflowViewState.IdRef="SendHotkey_7" Key="f5" KeyModifiers="None" SpecialKey="True">
+                        <ui:SendHotkey.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="66fceecd-eb28-41b1-93e1-262ac69a582f">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:SendHotkey.Target>
+                      </ui:SendHotkey>
+                      <Sequence sap:VirtualizedContainerService.HintSize="484,748" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="text" DisplayName="Get Attribute 'cell  구매 row 0'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="GetAttribute_1">
+                          <ui:GetAttribute.Result>
+                            <OutArgument x:TypeArguments="x:String">[b_check]</OutArgument>
+                          </ui:GetAttribute.Result>
+                          <ui:GetAttribute.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="fc781bfb-cd2e-4383-a9ce-0c4c024a3620" InformativeScreenshot="3df5922c0c9e5072dd31f3719aff23cd" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='구매 row 0' role='cell' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:GetAttribute.Target>
+                        </ui:GetAttribute>
+                        <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="text" DisplayName="Get Attribute 'cell  부자재 row 0'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="GetAttribute_2">
+                          <ui:GetAttribute.Result>
+                            <OutArgument x:TypeArguments="x:String">[r_check]</OutArgument>
+                          </ui:GetAttribute.Result>
+                          <ui:GetAttribute.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ad5b362c-8fbf-4ded-93b1-c7c7230da2e8" InformativeScreenshot="b4efbc504246478dc26b5cfaac1807e2" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='부자재 row 0' role='cell' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:GetAttribute.Target>
+                        </ui:GetAttribute>
+                        <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="text" DisplayName="Get Attribute 'cell  생산 row 0'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="GetAttribute_3">
+                          <ui:GetAttribute.Result>
+                            <OutArgument x:TypeArguments="x:String">[p_check]</OutArgument>
+                          </ui:GetAttribute.Result>
+                          <ui:GetAttribute.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="22c4d1c0-0446-4285-8454-9aa2d1b9f56d" InformativeScreenshot="eab348a0cf5a4cfe423f8f249f349f4d" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='생산 row 0' role='cell' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:GetAttribute.Target>
+                        </ui:GetAttribute>
+                        <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="text" DisplayName="Get Attribute 'cell  영업 row 0'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="GetAttribute_4">
+                          <ui:GetAttribute.Result>
+                            <OutArgument x:TypeArguments="x:String">[s_check]</OutArgument>
+                          </ui:GetAttribute.Result>
+                          <ui:GetAttribute.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d3a09223-3ee9-4d27-95fe-6f884e0584d1" InformativeScreenshot="ec95ce4b5a481d62d02b25427f268caa" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='영업 row 0' role='cell' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:GetAttribute.Target>
+                        </ui:GetAttribute>
+                      </Sequence>
+                      <If Condition="[b_check = &quot;해제&quot;]" sap:VirtualizedContainerService.HintSize="484,282" sap2010:WorkflowViewState.IdRef="If_4">
+                        <If.Then>
+                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'cell  구매 row 0'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_80" KeyModifiers="None" MouseButton="BTN_LEFT">
+                            <ui:Click.CursorPosition>
+                              <ui:CursorPosition Position="Center">
+                                <ui:CursorPosition.OffsetX>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetX>
+                                <ui:CursorPosition.OffsetY>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetY>
+                              </ui:CursorPosition>
+                            </ui:Click.CursorPosition>
+                            <ui:Click.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ce65962c-95dc-444e-94f2-756c5fb7b0c8" InformativeScreenshot="3df5922c0c9e5072dd31f3719aff23cd" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='구매 row 0' role='cell' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:Click.Target>
+                          </ui:Click>
+                        </If.Then>
+                      </If>
+                      <If Condition="[r_check = &quot;해제&quot;]" sap:VirtualizedContainerService.HintSize="484,282" sap2010:WorkflowViewState.IdRef="If_5">
+                        <If.Then>
+                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'cell  부자재 row 0'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_84" KeyModifiers="None" MouseButton="BTN_LEFT">
+                            <ui:Click.CursorPosition>
+                              <ui:CursorPosition Position="Center">
+                                <ui:CursorPosition.OffsetX>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetX>
+                                <ui:CursorPosition.OffsetY>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetY>
+                              </ui:CursorPosition>
+                            </ui:Click.CursorPosition>
+                            <ui:Click.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b30a2979-6574-4173-91ed-8a404012cca6" InformativeScreenshot="a518f763a0f9b19b88ab17d38c7dc29c" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='부자재 row 0' role='cell' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:Click.Target>
+                          </ui:Click>
+                        </If.Then>
+                      </If>
+                      <If Condition="[p_check = &quot;해제&quot;]" sap:VirtualizedContainerService.HintSize="484,282" sap2010:WorkflowViewState.IdRef="If_6">
+                        <If.Then>
+                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'cell  생산 row 0'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_85" KeyModifiers="None" MouseButton="BTN_LEFT">
+                            <ui:Click.CursorPosition>
+                              <ui:CursorPosition Position="Center">
+                                <ui:CursorPosition.OffsetX>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetX>
+                                <ui:CursorPosition.OffsetY>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetY>
+                              </ui:CursorPosition>
+                            </ui:Click.CursorPosition>
+                            <ui:Click.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3ef17423-5448-4164-b67f-95310543d71e" InformativeScreenshot="77766e1e5eec482db3877a18bf11c401" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='생산 row 0' role='cell' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:Click.Target>
+                          </ui:Click>
+                        </If.Then>
+                      </If>
+                      <If Condition="[s_check = &quot;해제&quot;]" sap:VirtualizedContainerService.HintSize="484,282" sap2010:WorkflowViewState.IdRef="If_7">
+                        <If.Then>
+                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'cell  영업 row 0'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_86" KeyModifiers="None" MouseButton="BTN_LEFT">
+                            <ui:Click.CursorPosition>
+                              <ui:CursorPosition Position="Center">
+                                <ui:CursorPosition.OffsetX>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetX>
+                                <ui:CursorPosition.OffsetY>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetY>
+                              </ui:CursorPosition>
+                            </ui:Click.CursorPosition>
+                            <ui:Click.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d2124510-feef-443d-b606-3e7733551995" InformativeScreenshot="f6836ae37717eacb7ce5b291d881f229" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='행 1' role='row' /&gt;&lt;ctrl name='영업 row 0' role='cell' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:Click.Target>
+                          </ui:Click>
+                        </If.Then>
+                      </If>
+                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.Window.b...'" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="Click_87" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <ui:Click.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </ui:Click.CursorPosition>
+                        <ui:Click.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a9c9a5a6-3198-454e-a089-c913d992cf1b" InformativeScreenshot="782c875b62d673f5cdf4f0d169208d84" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='cmdToolBar' /&gt;&lt;wnd ctrlname='pnlContainer' /&gt;&lt;wnd ctrlname='sbtnSave' /&gt;">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:Click.Target>
+                      </ui:Click>
+                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.Window.b...'" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="Click_70" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <ui:Click.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </ui:Click.CursorPosition>
+                        <ui:Click.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3c33ba97-cf5e-408a-a75a-ad896d1cfdce" InformativeScreenshot="e38048e3eea94285ec87a063d28d8a4f" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3420]원가 마감 유무 ' /&gt;&lt;wnd ctrlname='CO020E10' /&gt;&lt;wnd ctrlname='cmdToolBar' /&gt;&lt;wnd ctrlname='pnlContainer' /&gt;&lt;wnd ctrlname='sbtnClose' /&gt;">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:Click.Target>
+                      </ui:Click>
+                    </Sequence>
+                  </Sequence>
+                </ui:CommentOut.Body>
+              </ui:CommentOut>
             </Sequence>
           </ActivityAction>
         </ui:WindowScope.Body>

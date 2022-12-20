@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1283,952" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1038,952" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="62">
       <x:String>System.Activities</x:String>
@@ -708,7 +708,7 @@
                         </ui:Target>
                       </ui:SendHotkey.Target>
                     </ui:SendHotkey>
-                    <ui:InterruptibleWhile Condition="[hang_num &lt; 41]" DisplayName="While" sap:VirtualizedContainerService.HintSize="412,827" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+                    <ui:InterruptibleWhile Condition="[hang_num &lt; 42]" DisplayName="While" sap:VirtualizedContainerService.HintSize="412,827" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
                       <ui:InterruptibleWhile.Body>
                         <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,662" sap2010:WorkflowViewState.IdRef="Sequence_13">
                           <sap:WorkflowViewStateService.ViewState>
@@ -728,7 +728,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2bb87ccc-1955-465e-8acb-e65ffee8206c" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3579]수불부 생성' /&gt;&lt;wnd ctrlname='CO030E60' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlSplitContainer' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='Row {{hang_num}}' role='row' /&gt;&lt;ctrl name='실행  row{{play_num}}' role='cell' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2bb87ccc-1955-465e-8acb-e65ffee8206c" Selector="&lt;wnd cls='WindowsForms10.Window.*' title='[3579]수불부 생성' /&gt;&lt;wnd ctrlname='CO030E60' /&gt;&lt;wnd ctrlname='pnlDataArea' /&gt;&lt;wnd ctrlname='pnlSplitContainer' /&gt;&lt;wnd ctrlname='pnlMaster' /&gt;&lt;wnd ctrlname='xgMaster' /&gt;&lt;ctrl name='Row {{hang_num}}' role='row' /&gt;&lt;ctrl name='실행 row{{play_num}}' role='cell' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -1177,11 +1177,11 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <ui:ExcelWriteCell Cell="A1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_1" SheetName="Sheet2" Text="컬러건재영업팀" />
-                        <ui:ExcelWriteCell Cell="A2" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_2" SheetName="Sheet2" Text="소재영업팀" />
+                        <ui:ExcelWriteCell Cell="A2" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_2" SheetName="Sheet2" Text="신수요개발팀" />
                         <ui:ExcelWriteCell Cell="A3" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_3" SheetName="Sheet2" Text="가전영업팀" />
                         <ui:ExcelWriteCell Cell="A4" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_4" SheetName="Sheet2" Text="수출팀" />
                         <ui:ExcelWriteCell Cell="B1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_5" SheetName="Sheet2" Text="[&quot;=SUMIFS(Sheet1!AP:AP,Sheet1!BH:BH,&quot;&quot;컬러건재영업팀&quot;&quot;)&quot;]" />
-                        <ui:ExcelWriteCell Cell="B2" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_6" SheetName="Sheet2" Text="[&quot;=SUMIFS(Sheet1!AP:AP,Sheet1!BH:BH,&quot;&quot;소재영업팀&quot;&quot;)&quot;]" />
+                        <ui:ExcelWriteCell Cell="B2" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_6" SheetName="Sheet2" Text="[&quot;=SUMIFS(Sheet1!AP:AP,Sheet1!BH:BH,&quot;&quot;신수요개발팀&quot;&quot;)&quot;]" />
                         <ui:ExcelWriteCell Cell="B3" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_7" SheetName="Sheet2" Text="[&quot;=SUMIFS(Sheet1!AP:AP,Sheet1!BH:BH,&quot;&quot;가전영업팀&quot;&quot;)&quot;]" />
                         <ui:ExcelWriteCell Cell="B4" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_8" SheetName="Sheet2" Text="[&quot;=SUMIFS(Sheet1!AP:AP,Sheet1!BH:BH,&quot;&quot;수출팀&quot;&quot;)&quot;]" />
                         <ui:ExcelReadRange AddHeaders="False" DataTable="[ip_samplecost]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" Range="A1:B4" SheetName="Sheet2" />
@@ -2359,7 +2359,7 @@
                     </ui:CursorPosition>
                   </ui:Click.CursorPosition>
                   <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="50df46e6-74f8-428e-9a69-3154b07510f1" InformativeScreenshot="cfb662696d83bf29873824d6a425e26b" Selector="&lt;wnd app='세아 씨엠 통합정보시스템.exe' ctrlname='PopMessage' /&gt;&lt;wnd ctrlname='PanelControl2' /&gt;&lt;wnd ctrlname='btnOK' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="50df46e6-74f8-428e-9a69-3154b07510f1" InformativeScreenshot="cfb662696d83bf29873824d6a425e26b" Selector="&lt;wnd app='세아 씨엠 통합정보시스템.exe' cls='WindowsForms10.Window.*' idx='*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='확인(&amp;amp;O)' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -2425,7 +2425,7 @@
                     </ui:CursorPosition>
                   </ui:Click.CursorPosition>
                   <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="32eb611a-77df-441f-8a74-19f5e0170bb3" InformativeScreenshot="cfb662696d83bf29873824d6a425e26b" Selector="&lt;wnd app='세아 씨엠 통합정보시스템.exe' ctrlname='PopMessage' /&gt;&lt;wnd ctrlname='PanelControl2' /&gt;&lt;wnd ctrlname='btnOK' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="32eb611a-77df-441f-8a74-19f5e0170bb3" InformativeScreenshot="cfb662696d83bf29873824d6a425e26b" Selector="&lt;wnd app='세아 씨엠 통합정보시스템.exe' cls='WindowsForms10.Window.*' idx='*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='확인(&amp;amp;O)' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>

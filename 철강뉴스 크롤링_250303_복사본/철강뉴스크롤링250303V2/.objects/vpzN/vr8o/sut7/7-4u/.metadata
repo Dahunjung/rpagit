@@ -1,0 +1,14 @@
+﻿{
+  "Name": "KG스틸",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "7-4urYY-bkKuFMXuB3L2eQ",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/7-4urYY-bkKuFMXuB3L2eQ",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/sut7kpPBREyvn26dk7JpBQ",
+  "Created": "2025-03-05T02:25:08.4406552Z",
+  "Updated": "2025-03-05T02:25:08.4406552Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

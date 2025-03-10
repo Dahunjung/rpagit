@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XCc7KiPx0Ue7JECQjh5KiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="steeldaily.co.kr/member/login.html" CVScreenId="27625627-94b7-498c-b067-443a25f754a8" CvElementArea="786, 526, 362, 53" CvType="InputBox" DesignTimeRectangle="789, 527, 358, 50" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='user_pw' tag='INPUT' type='password' class='xlarge marbtm-5' placeholder='비밀번호' aaname='비밀번호' /&gt;" Guid="6fca50f2-54f3-4a31-b419-853223f79b6b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='로그인 - 스틸데일리' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2f2996176a56e32caf2d11105ef72e92.png" xmlns="">06k4uctALgE2hUeinTdV8Wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

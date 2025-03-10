@@ -1,0 +1,37 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "thismonth&Flowchart_1",
+        "pathsave_gbadmin&Flowchart_1",
+        "savename_gbadmin&Flowchart_1",
+        "pathsave_gbbatch&Flowchart_1",
+        "pathsave_gbnormal&Flowchart_1",
+        "savename_gbbatch&Flowchart_1",
+        "savename_gbnormal&Flowchart_1",
+        "lastday&Flowchart_1",
+        "savename_sales&Flowchart_1",
+        "pathsave_sales&Flowchart_1",
+        "savename_cost&Flowchart_1",
+        "pathsave_cost&Flowchart_1",
+        "thisyear&Flowchart_1",
+        "thismonth2&Flowchart_1",
+        "pathsave_subul&Flowchart_1",
+        "savename_subul&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

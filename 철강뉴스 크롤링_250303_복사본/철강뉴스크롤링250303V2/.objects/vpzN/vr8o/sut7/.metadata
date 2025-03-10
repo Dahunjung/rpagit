@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome KG스틸  네이버 뉴스검색",
+  "Type": "Screen",
+  "Id": "sut7kpPBREyvn26dk7JpBQ",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/sut7kpPBREyvn26dk7JpBQ",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/vr8orPK2PUCzBajpGymhuA",
+  "Created": "2025-03-05T02:24:59.9035818Z",
+  "Updated": "2025-03-05T02:24:59.9035818Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

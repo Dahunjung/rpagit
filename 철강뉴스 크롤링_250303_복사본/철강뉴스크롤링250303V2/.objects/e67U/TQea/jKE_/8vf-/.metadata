@@ -1,0 +1,13 @@
+﻿{
+  "Name": "검색버튼",
+  "Type": "Element",
+  "Id": "8vf-Vblp1Euig4mtO8Hi9A",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/8vf-Vblp1Euig4mtO8Hi9A",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/jKE_yq6-5U-JD9Y3MAtZ7Q",
+  "Created": "2025-03-05T05:27:06.9272889Z",
+  "Updated": "2025-03-05T05:27:06.9272889Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

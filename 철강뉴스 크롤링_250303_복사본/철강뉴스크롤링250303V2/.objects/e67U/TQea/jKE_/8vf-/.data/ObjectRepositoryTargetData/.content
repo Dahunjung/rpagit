@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YKaPURAdQUal6-fVtSW7Yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snmnews.com" CVScreenId="3a01a535-3970-4a82-a2fd-bc356fb7aa58" CvElementArea="1423, 210, 27, 26" CvType="Icon" DesignTimeRectangle="1428, 208, 20, 29" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='userSearch' tag='I' type='' class='icon-search' aaname='' check:innerText='검색버튼' /&gt;" Guid="148e5411-bc65-4b77-9522-a52f1fee4482" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAhCAYAAADDAmudAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHaSURBVEhLY/hPYzBqAUEwagFBMDAW/Pvz4//lgwv+Z4Y4/dfTVP6vpKQExBr/Te0C/5f1bvn/+Ms/qErCAMOC97dW/o+0UYcaih2rqJr9r1l87f8vqB58AMWCpyc6/9urw1wMwcZWdv/t7eyB2OK/riqqXHz9gf9foXpxAbgF359v/B+ooQLX7JUy7f/Fl9+gshDw78+n/wfnZP83VkNYlDfnDlQWO4Ba8PP/8nwTuKag4p14Xfb8/LT/LlCfqqul/j/9+S9UBhOALfjxauP/AFWI640dO/4//E04Ek/NjII7qHTxE6goJgBb8G53DVxx1TLcipHB7687/8eoq4L1uKSvxhnhYAsuzo0GK1RWsv2/7CIxaQMYH//v/2/x0QHrs/CZ+v8VDk/TxwKaBxFyJJv79P9/Su1IRk+mhDIQcoYkKpmCADEZ7e+PN/93zUbNaFHNJ6Cy2AHcAhDAVlToGOMuKkBYWcn0f+vGp1ATMAGKBSBAbGHn7WEJ5+OzBMMCEMBVXFt6RP5vmbn7/4vv/4Bq3vxfmO+EYkntsmtQExAAqwXEAmIsocgCEMBmycxjn6GyVLAABJAtyZ56FSXTUcUCEABZcvTATYwcTTULcIFRCwgCGlvw/z8A85H57gubV3QAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='철강금속신문' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="af46b142add759e4e73f02e6aa2ce28f.png" xmlns="">0F1UWa_97g06XNOp9NskMRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="n1jIyq9g0Uybhp87fDOALg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snmnews.com" CVScreenId="7c77a044-7acf-4c3d-a0a3-c12a3e4164c0" CvTextArea="628, 156, 38, 15" CvTextArgument="وבج" CvType="Text" DesignTimeRectangle="628, 156, 37, 15" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='userLogin' tag='A' type='' class='' aaname='로그인' check:innerText='로그인' /&gt;" Guid="e79c71a4-3c38-4287-9c97-574bad8efe0f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='철강금속신문' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5e59c19b788d977de2454960cbe978ec.png" xmlns="">0KqWz6t8mKUGNo_HYFO1k7g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

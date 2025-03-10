@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DKtCwQx-ZUCRr4M9325W9Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="search.naver.com/search.naver" CVScreenId="dbb59ccf-ae00-488e-807b-a96e5b06c984" DesignTimeRectangle="450, 164, 528, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='box_window' placeholder='검색어를 입력해 주세요.' aaname='' /&gt;" Guid="f598bf81-a665-4a4c-beed-c8d29e444e2d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='포스코스틸리온 : 네이버 뉴스검색' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="28ecae1a3c2da84a23b8ad374fee0172.png" xmlns="">0URzkrG6gxkmO4CvxvYoAEA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome 전체  기사목록 - 스틸데일리",
+  "Type": "Screen",
+  "Id": "P9UNDmP6a0CmUIE9c07aIQ",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/P9UNDmP6a0CmUIE9c07aIQ",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/DsQUXu67CUC_f1NIDUGLRA",
+  "Created": "2025-03-05T03:00:56.7628608Z",
+  "Updated": "2025-03-05T03:00:56.7628608Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

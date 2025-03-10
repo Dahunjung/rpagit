@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome 세아씨엠  네이버 뉴스검색",
+  "Type": "App",
+  "Id": "vpzNSguvb0aVGDZonN5gWQ",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/vpzNSguvb0aVGDZonN5gWQ",
+  "Created": "2025-03-05T02:03:48.982098Z",
+  "Updated": "2025-03-05T02:03:48.982098Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mzJCI0al4EOkCw6mYThLRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="steeldaily.co.kr" CVScreenId="dbb95dd0-3cfe-428d-bf77-0e72dc26379b" CvElementArea="1399, 282, 25, 25" CvTextArea="1402, 285, 20, 19" CvType="Icon" DesignTimeRectangle="1403, 283, 20, 24" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='userSearch' parentname='head-search' tag='I' type='' class='icon-search-thin' aaname='' /&gt;" Guid="6f383882-c220-4d21-8ef9-69d12ab9771f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFESURBVEhL7ZS/S8NAGIb9nwKFbJkCGQodQsFMunWpWxZDlu7i0o4OcpOjk0KpIGRyc4tQUihkKwiBDoHA6931E0y95AL2OkgfuCEvd99zv3JnMMxJoOU/C6oC6eMtRkMHtmXBEs1xcRkzJOuSOulRCsrlA648Kmo76F+EmFyP4HvOLrNs+DcJiooGtPBbsGIIerxIz8dknqHcK1Ju3sDGrhS5MZdQ3kRdUKWYDUTxAGxFmZICSbyThM/tipqgnIdyUHCfU9LCNkHk8MkMZkgpUlETJLHY3xBPWwo0pNM+789Xu6ZAwQ9BDnbOBcM7ZJRoeYnkiqNX+lZwTIHxLTrCIRu/phKjPxrR9anYLPlkvAiLTxqoQCmQdHjsCn6LXJG7zZJmQUd0kj8LBN8Sf/qO/Yf8IAJB/pEpD/xggiZOAi2GBcAXDhTKUHpdIPoAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='스틸데일리' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ee3a4f184fa46834f716af2118075fea.png" xmlns="">0HyFvF8r5wU2tpNzGPzRJtA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

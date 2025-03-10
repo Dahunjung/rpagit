@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jvnzBQT_EEm1ci7S0G9moQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a685d43a-8d3e-4318-8438-6ac14101a990" CvElementArea="286, 246, 110, 23" CvType="InputBox" DesignTimeRectangle="293, 250, 80, 14" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' title='[3545]수불부 조회 ' /&gt;&lt;wnd ctrlname='CO030R10' /&gt;&lt;wnd ctrlname='pnlParameterArea' /&gt;&lt;wnd ctrlname='YMEdit_FR' /&gt;&lt;wnd ctrlname='edit' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' title='[3545]수불부 조회 ' /&gt;&lt;wnd ctrlname='CO030R10' /&gt;&lt;wnd ctrlname='pnlParameterArea' /&gt;&lt;wnd ctrlname='YMEdit_FR' /&gt;&lt;wnd ctrlname='edit' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;" Guid="e4d8b3ec-1653-48e7-9e75-4b4f12b0b90c" ScopeSelectorArgument="&lt;wnd app='세아 씨엠 통합정보시스템.exe' ctrlname='FrmMain' /&gt;&lt;wnd aaname='가로' cls='WindowsForms10.MDICLIENT.*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b5316f97b01c70af0aff0549cd7b6da0.png" xmlns="">01YdPDkDuaECxrxQ6KYq6kg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

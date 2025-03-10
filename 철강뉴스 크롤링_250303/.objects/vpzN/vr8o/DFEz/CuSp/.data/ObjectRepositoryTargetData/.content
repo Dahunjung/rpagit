@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ly0HEZNlbUKE4youLqh3iw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="search.naver.com/search.naver" CVScreenId="6252b102-41fa-4614-b8f3-d8092a299c13" CvElementArea="927, 171, 56, 37" CvTextArea="939, 181, 31, 18" CvTextArgument="#^" CvType="Button" DesignTimeRectangle="928, 172, 54, 36" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='뉴스' aria-role='tab' tag='A' type='' class='tab' check:innerText='뉴스' /&gt;" Guid="e6ee088c-4b57-41df-8f9d-259da74a8b68" ScopeSelectorArgument="&lt;html app='chrome.exe' title='세아씨엠 : 네이버 검색' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a3b735f706a1be1ed204ae2be4a56200.png" xmlns="">0wi0knafDU0yYofVqPlSW5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

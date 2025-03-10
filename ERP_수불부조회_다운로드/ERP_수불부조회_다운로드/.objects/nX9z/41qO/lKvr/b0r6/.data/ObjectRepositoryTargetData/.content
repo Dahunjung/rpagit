@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="krkurrdmwkmyde44QiV-kA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a685d43a-8d3e-4318-8438-6ac14101a990" CvElementArea="1650, 208, 272, 24" CvType="InputBox" DesignTimeRectangle="1658, 212, 243, 15" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='panelRoot' /&gt;&lt;wnd ctrlname='dockPanelMain' /&gt;&lt;wnd ctrlname='dockPanel1_Container' /&gt;&lt;wnd ctrlname='BizFullTreeMenuElementView' /&gt;&lt;wnd ctrlname='pnlTop' /&gt;&lt;wnd ctrlname='txtSearchKey' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;" Guid="d33214c4-2cb8-4a8f-bf3c-69fb942d0e3a" ScopeSelectorArgument="&lt;wnd app='세아 씨엠 통합정보시스템.exe' ctrlname='FrmMain' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d5a52bf9b95cedd70d1669b553cac093.png" xmlns="">0cP6bgtS62E-NPrgUMA38dA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

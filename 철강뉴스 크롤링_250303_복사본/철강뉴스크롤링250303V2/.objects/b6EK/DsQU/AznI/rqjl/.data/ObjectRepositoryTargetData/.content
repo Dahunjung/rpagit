@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Tbbo3yzU5UKpB1micyiC7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="steeldaily.co.kr/news/articleList.html" CVScreenId="4882a9af-db8d-471e-aaf0-708a2be6bac8" CvElementArea="1400, 283, 24, 24" CvTextArea="1402, 284, 20, 20" CvType="Icon" DesignTimeRectangle="1403, 283, 20, 24" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='userSearch' parentname='head-search' tag='I' type='' class='icon-search-thin' aaname='' /&gt;" Guid="47c0b33d-4bf3-444a-9354-164d0f96c725" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFESURBVEhL7ZS/S8NAGIb9nwKFbJkCGQodQsFMunWpWxZDlu7i0o4OcpOjk0KpIGRyc4tQUihkKwiBDoHA6931E0y95AL2OkgfuCEvd99zv3JnMMxJoOU/C6oC6eMtRkMHtmXBEs1xcRkzJOuSOulRCsrlA648Kmo76F+EmFyP4HvOLrNs+DcJiooGtPBbsGIIerxIz8dknqHcK1Ju3sDGrhS5MZdQ3kRdUKWYDUTxAGxFmZICSbyThM/tipqgnIdyUHCfU9LCNkHk8MkMZkgpUlETJLHY3xBPWwo0pNM+789Xu6ZAwQ9BDnbOBcM7ZJRoeYnkiqNX+lZwTIHxLTrCIRu/phKjPxrR9anYLPlkvAiLTxqoQCmQdHjsCn6LXJG7zZJmQUd0kj8LBN8Sf/qO/Yf8IAJB/pEpD/xggiZOAi2GBcAXDhTKUHpdIPoAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='전체 &amp;lt; 기사목록 - 스틸데일리' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8d80c69451fecd5d083a5a52319e06fb.png" xmlns="">02uXd9MExBUOMQtYE8Mkruw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xuks_CrCCE2Gz3Pin5t7gA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="search.naver.com/search.naver" CVScreenId="b66a8bbe-4770-4204-b4ec-6dfa0046aca2" CvTextArea="448, 168, 80, 21" CvTextArgument="g&quot;0m||ג" CvType="Text" DesignTimeRectangle="450, 164, 528, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='box_window' placeholder='검색어를 입력해 주세요.' aaname='' /&gt;" Guid="ae48a81a-b563-44ac-9d6c-c3a50bbc6a86" ScopeSelectorArgument="&lt;html app='chrome.exe' title='세아씨엠 : 네이버 뉴스검색' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0309eb7d04202a452862bc26d43b069b.png" xmlns="">0Uu8cM6Urn0asNPHOnqle7w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

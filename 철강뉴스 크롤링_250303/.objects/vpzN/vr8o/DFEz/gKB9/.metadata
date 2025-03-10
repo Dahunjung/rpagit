@@ -1,0 +1,14 @@
+﻿{
+  "Name": "세아씨엠",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "gKB9O9Zr3kOtpLzYAjFQ5w",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/gKB9O9Zr3kOtpLzYAjFQ5w",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/DFEzuVwr3UWf8AZewJ0Q6w",
+  "Created": "2025-03-05T07:03:20.2318657Z",
+  "Updated": "2025-03-05T07:03:20.2318657Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

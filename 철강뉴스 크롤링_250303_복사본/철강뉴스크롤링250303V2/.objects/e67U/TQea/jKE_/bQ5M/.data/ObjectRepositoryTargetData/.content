@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y5Pl6ECRF0yXe9jaCx201A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snmnews.com/member/login.html" CVScreenId="907dd4e8-6532-4499-b04b-9c8e425b850d" CvElementArea="756, 230, 422, 52" CvType="InputBox" DesignTimeRectangle="758, 231, 420, 50" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='user_pw' tag='INPUT' type='password' class='xlarge auto-marbtm-5' placeholder='비밀번호' aaname='비밀번호' /&gt;" Guid="80c3e1cc-35ec-4e8a-ad88-91b7b5cd1184" ScopeSelectorArgument="&lt;html app='chrome.exe' title='철강금속신문 - member' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="600ed1f17a37b1854abad4dc3b9402d3.png" xmlns="">0tXtiQbEDpki4_VmLfTHpIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome 철강금속신문",
+  "Type": "Screen",
+  "Id": "jKE_yq6-5U-JD9Y3MAtZ7Q",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/jKE_yq6-5U-JD9Y3MAtZ7Q",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/TQeaZqzbsU2mtiQuMBVT6A",
+  "Created": "2025-03-05T05:23:45.1036949Z",
+  "Updated": "2025-03-05T05:23:45.1036949Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

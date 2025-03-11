@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zsjoYy7jlUKmV1QSxEga_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="steeldaily.co.kr/member/login.html" CVScreenId="27625627-94b7-498c-b067-443a25f754a8" CvElementArea="788, 650, 360, 53" CvTextArea="941, 666, 52, 20" CvTextArgument="וgב2" CvType="Button" DesignTimeRectangle="789, 652, 358, 50" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='button expanded large user-bg mary-25' aaname='로그인' check:innerText='로그인' /&gt;" Guid="469d2df6-986c-44fc-b67b-76bcb84ce212" ScopeSelectorArgument="&lt;html app='chrome.exe' title='로그인 - 스틸데일리' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dd6bd271ae8cb48c47fbcc44a2675dab.png" xmlns="">0py03wj7SYkihw3QNG23InQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

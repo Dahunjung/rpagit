@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z7OJFscTREmKYo9qnqe8Xg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snmnews.com" DesignTimeRectangle="668, 288, 600, 80" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='search' tag='INPUT' type='text' class='' placeholder='검색어 입력' aaname='기사검색' /&gt;" Guid="b60686eb-74cf-455c-9e4d-081526e4899d" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='철강금속신문' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1cd7a051-03a1-4926-9aa1-f649ff4c9c28" CvTextArea="665, 258, 17, 16" CvTextArgument="e" CvType="Text" DesignTimeRectangle="668, 249, 87, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='제목+본문' check:innerText='제목+본문' /&gt;" Guid="6bcfa787-d692-4d69-9d6d-46102b398391" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="279f791995d6449b9818d5c09ae336ca.png" xmlns="">0ypGjK_CCK0qg717jnjMWhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

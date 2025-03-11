@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jIeo2_Yz0kqTENRCkPgBhw" Reference="YDG8Oe5PLkWXdDQlGUFccQ/7-4urYY-bkKuFMXuB3L2eQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="search.naver.com/search.naver" CVScreenId="3c7e338e-259b-49a4-baf3-98a5b60c86d2" CvTextArea="449, 168, 66, 21" CvTextArgument="KG^E" CvType="Text" DesignTimeRectangle="450, 164, 528, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='box_window' placeholder='검색어를 입력해 주세요.' aaname='' /&gt;" Guid="d6e79ec6-36aa-4783-b038-7fd5a47e7c18" ScopeSelectorArgument="&lt;html app='chrome.exe' title='KG스틸 : 네이버 뉴스검색' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="265c28d5a374588e2679a2a4d8b0c855.png" xmlns="">0qoAkVkoD9UOUl-lchSzuNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

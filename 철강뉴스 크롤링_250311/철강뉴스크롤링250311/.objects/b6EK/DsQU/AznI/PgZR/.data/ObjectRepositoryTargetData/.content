@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="j_uzQ3BfpEOsjKEw_5ge7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="steeldaily.co.kr/member/login.html" DesignTimeRectangle="680, 106, 578, 226" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;ctrl name='www.steeldaily.co.kr 내용:' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" FuzzySelectorArgument="&lt;ctrl name='www.steeldaily.co.kr 내용:' role='dialog' /&gt;&lt;ctrl automationid='' role='pane' check:fulltext='www.steeldaily.co.kr 내용:&amp;#xD;&amp;#xA;같은 아이디가 사용 중입니다.끊고 접속하시겠습니까?&amp;#xD;&amp;#xA;확인&amp;#xD;&amp;#xA;취소' /&gt;" Guid="ee7536bd-9fa3-446c-9a20-351960f4d001" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='로그인 - 스틸데일리 - Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f6cc9c0423492d6845791fbffdf7306c.png" xmlns="">0J1vMqj3pQkKQ7wJSxJ8Ngw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

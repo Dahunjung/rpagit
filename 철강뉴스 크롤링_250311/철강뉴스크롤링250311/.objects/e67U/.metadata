@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome 철강금속신문",
+  "Type": "App",
+  "Id": "e67UI8kKeEuwf_eUORVlvQ",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/e67UI8kKeEuwf_eUORVlvQ",
+  "Created": "2025-03-05T05:23:45.0873948Z",
+  "Updated": "2025-03-05T05:23:45.0873948Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

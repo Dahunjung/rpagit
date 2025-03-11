@@ -1,0 +1,13 @@
+﻿{
+  "Name": "www.steeldaily.co.kr 내용…",
+  "Type": "Element",
+  "Id": "PgZRaAWLUESPvP8Ss4spGQ",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/PgZRaAWLUESPvP8Ss4spGQ",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/AznI36TIvkyxv3pAP-CPlQ",
+  "Created": "2025-03-11T06:59:32.5275187Z",
+  "Updated": "2025-03-11T06:59:32.5275187Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

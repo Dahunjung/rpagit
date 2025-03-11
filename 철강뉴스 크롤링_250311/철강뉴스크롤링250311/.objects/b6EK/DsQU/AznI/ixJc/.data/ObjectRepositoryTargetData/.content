@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yNArFn_zm0O910VYR8OKRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="steeldaily.co.kr/news/articleList.html" CVScreenId="de29974d-3a81-4968-b05b-a42ab98c0cf4" CvTextArea="1264, 287, 124, 15" CvTextArgument="2405 gl¿ôF)R" CvType="Text" DesignTimeRectangle="1258, 280, 140, 32" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='search' tag='INPUT' type='text' class='' placeholder='검색어를 입력해주세요' aaname='기사검색' /&gt;" Guid="f6b25c33-df7c-439b-9d40-05d418dfa8b7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='전체 &amp;lt; 기사목록 - 스틸데일리' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4a78c8a12b16cc633e3617c76fd0a9b3.png" xmlns="">0Hyi7ApMRjEq5kuGFB3b7DQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

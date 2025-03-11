@@ -1,0 +1,14 @@
+﻿{
+  "Name": "로그인(1)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "BJdC_sYrskC_noCwIcAESw",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/BJdC_sYrskC_noCwIcAESw",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/AznI36TIvkyxv3pAP-CPlQ",
+  "Created": "2025-03-05T02:50:48.1456563Z",
+  "Updated": "2025-03-05T02:50:48.1456563Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

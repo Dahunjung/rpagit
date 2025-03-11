@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3iQAL0mbl0y5Wr152eTavw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="steeldaily.co.kr/member/login.html" CVScreenId="43274ad7-56a8-4e5f-a835-8f82901a99bb" CvElementArea="1050, 245, 86, 52" CvTextArea="1076, 261, 33, 20" CvTextArgument="!F9غ" CvType="Button" DesignTimeRectangle="1054, 247, 80, 49" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='www.steeldaily.co.kr 내용:' role='dialog' /&gt;&lt;ctrl name='확인' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='www.steeldaily.co.kr 내용:' role='dialog' /&gt;&lt;ctrl name='확인' role='push button' automationid='' check:fulltext='확인' /&gt;" Guid="9e9a4820-51ef-4dcb-bf65-016c3954dc3a" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='로그인 - 스틸데일리 - Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="61b064afabed43ab47112cd32acaaa06.png" xmlns="">0hh1g6rf66k2b8n1DtFdURQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome 아주스틸  네이버 뉴스검색(1)",
+  "Type": "Screen",
+  "Id": "m5jBTz1lnUWQ-pQM4oG1aA",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/m5jBTz1lnUWQ-pQM4oG1aA",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/vr8orPK2PUCzBajpGymhuA",
+  "Created": "2025-03-05T02:27:37.5158637Z",
+  "Updated": "2025-03-05T02:27:37.5158637Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

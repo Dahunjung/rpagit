@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ppNd_BrAzkOlKzpFRcoGwQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snmnews.com/member/login.html" CVScreenId="907dd4e8-6532-4499-b04b-9c8e425b850d" CvElementArea="757, 284, 422, 59" CvTextArea="954, 302, 57, 23" CvTextArgument="ę23" CvType="Button" DesignTimeRectangle="758, 286, 420, 56" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='button expanded large user-bg' aaname=' 로그인' check:innerText='로그인' /&gt;" Guid="889b75cb-ad95-4f45-8928-347eb069416b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='철강금속신문 - member' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="79e7d4c0bf46e71ab5fcbd4a7687389e.png" xmlns="">0ISxaCsPMCUecd6DGaG0GeQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

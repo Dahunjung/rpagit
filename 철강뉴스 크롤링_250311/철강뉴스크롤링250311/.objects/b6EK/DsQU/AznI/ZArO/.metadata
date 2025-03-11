@@ -1,0 +1,13 @@
+﻿{
+  "Name": "검색",
+  "Type": "Element",
+  "Id": "ZArOO2D7FEamKdDO_23npQ",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/ZArOO2D7FEamKdDO_23npQ",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/AznI36TIvkyxv3pAP-CPlQ",
+  "Created": "2025-03-05T02:53:40.5352516Z",
+  "Updated": "2025-03-05T02:53:40.5352516Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

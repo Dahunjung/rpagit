@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GTpixKhdXUyWWZInnRO8Rg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="steeldaily.co.kr" CVScreenId="17b4472c-fd3a-4607-a5cb-28b55c65bf27" CvTextArea="1473, 286, 20, 19" CvTextArgument="Q" CvType="Text" DesignTimeRectangle="1474, 284, 20, 24" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='userSearch' tag='I' type='' class='icon-search-thin' aaname='' check:innerText='검색' /&gt;" Guid="b983060f-f89f-4e8b-871f-59919bfb89d6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='스틸데일리' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3cf20163961f67b25155ed8b95d24b08.png" xmlns="">0AF6Yo2wYbUWp8Ba1ua1TXQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

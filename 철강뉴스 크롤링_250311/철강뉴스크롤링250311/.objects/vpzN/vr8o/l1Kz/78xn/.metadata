@@ -1,0 +1,14 @@
+﻿{
+  "Name": "아주스틸",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "78xnyF5QVEuyvqGjWMoOLg",
+  "Reference": "YDG8Oe5PLkWXdDQlGUFccQ/78xnyF5QVEuyvqGjWMoOLg",
+  "ParentRef": "YDG8Oe5PLkWXdDQlGUFccQ/l1Kzk2o1GkS2ZPot2w9Hag",
+  "Created": "2025-03-05T02:26:20.2751727Z",
+  "Updated": "2025-03-05T02:26:20.2751727Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
